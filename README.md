@@ -48,12 +48,13 @@ Mobile first references the designing of a webpage with phone, tablet or other m
 
 4. How would you describe preprocessing to someone new to CSS?
 
-Preprocessing
+Preprocessing involves transforming raw data into an understandable format using a program, 
 
 
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
+I plead the fifth!
 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
