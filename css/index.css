@@ -183,10 +183,10 @@ nav a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #22283A;
-  color: #F6F6F6;
   width: 17rem;
   height: 4rem;
+  background: #22283A;
+  color: #F6F6F6;
   border: 1px solid black;
   border-radius: 5%;
   font-size: 2.2rem;
@@ -200,6 +200,7 @@ nav a {
 @media (max-width: 500px) {
   .btn {
     width: 34rem;
+    height: 4rem;
   }
 }
 footer {
@@ -220,9 +221,9 @@ footer {
   align-items: center;
 }
 .home .intro {
-  margin: 30px 0;
   display: flex;
   flex-wrap: wrap;
+  margin: 30px 0;
   justify-content: space-between;
   width: 100%;
 }
@@ -247,14 +248,14 @@ footer {
   width: 100%;
 }
 .home .space-images img {
-  width: 28%;
   margin: 20px 2.5%;
   border-radius: 20px;
+  width: 28%;
   height: 100%;
 }
 @media (max-width: 500px) {
-  .home .space-images img .sky-img,
-  .home .space-images img .launch-img {
+  .home .space-images img .sky-img img,
+  .home .space-images img .launch-img img {
     display: none;
   }
 }
@@ -304,6 +305,7 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-img {
     width: 100%;
+    height: auto;
     border-radius: 7%;
   }
 }

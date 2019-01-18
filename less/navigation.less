@@ -3,8 +3,7 @@
   nav {
     display: flex; 
     justify-content: space-between;
-    width: 75%;
-    height: 50px;
+    .area(75%, 50px);
     margin: 0 auto;
   } 
   h1 {
@@ -24,10 +23,9 @@
 
   .btn {
     .centered();
+    .area(17rem, 4rem);
     background: @btn-bg-color;  
     color:@wild-sand;
-    width: 17rem;
-    height: 4rem;
     border:1px solid black;
     border-radius: 5%;
     font-size: 2.2rem;
@@ -39,7 +37,7 @@
         cursor: pointer;
     }
     @media(max-width: 500px) {
-        width: 34rem;
+        .area(34rem; 4rem)
 
     }
 }

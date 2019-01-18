@@ -12,8 +12,8 @@
   }
   
   .intro {
-    margin: 30px 0;
     .wrapping();
+    margin: 30px 0;
     justify-content: space-between;
     width: 100%;
 
@@ -40,13 +40,12 @@
     width: 100%;
 
     img {
-      width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
-      height: 100%;
+      .area(28%, 100%);
 
       @media(max-width:500px) {
-        .sky-img, .launch-img {
+        .sky-img img, .launch-img img {
           display: none;
         }
       }
@@ -103,13 +102,12 @@
       margin-left: 4%;
 
       @media(max-width: 500px) {
-        width: 100%;
+        .area(100%, auto);
         border-radius: 7%;
       }
       
       img {
-        width: 100%;
-        height: auto;
+        .area(100%, auto);
         border-radius: 10px;
       }
     }
