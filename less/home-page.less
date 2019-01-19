@@ -26,13 +26,7 @@
     }
     img {
       width: 100%;
-      height: 170px;
-
-      @media(max-width: 500px) {
-        .area(100%; 75%);
-      }
     }
-  
   }
 
   .space-images {
@@ -44,14 +38,29 @@
       border-radius: 1.25rem;
       .area(28%, 100%);
 
-      @media (max-width:500px) {
-        .sky-img{
-          visibility: none;
-        }
-        
+      @media @phone {
+        .area(90%, 100%);
         }
       }
+    }
+  }
 
+  .blast {
+    @media @phone {
+      margin: 20px 2.5%;
+      border-radius: 1.25rem;
+    }
+  }
+
+  .sky {
+    @media @phone {
+      display: none;
+    }
+  }
+
+  .launch {
+    @media @phone {
+      display: none;
     }
   }
 
@@ -74,33 +83,32 @@
     display: flex;
     justify-content: center;
 
-    @media (max-width:500px) {
-    display: flex;
-    flex-direction: column-reverse;
-    margin: 0 auto;
-    align-items: center;
+    @media @phone {
+      display: flex;
+      flex-direction: column-reverse;
+      margin: 0 auto;
+      align-items: center;
     }
 
-    .walk-text {
-      width: 50%;
+  .walk-text {
+    width: 50%;
 
-      @media(max-width:500px) {
-        margin: 0 auto;
-        width: 100%;
+    @media @phone {
+      // margin: 0 auto;
+      width: 100%;
         }
 
-      h3 {
+    h3 {
         margin-bottom: 10px;
       }
 
       p {
         margin-bottom: 26px;
       }
-
     }
 
     .walk-img {
-      width: 46%;
+      width: 48%;
       margin-left: 4%;
 
       @media @phone {
@@ -110,8 +118,14 @@
       
       img {
         .area(100%, auto);
-        border-radius: 10px;
+        margin-bottom: 15px;
+        border-radius: 1.25rem;
+
+        @media @phone {
+          .area(110%, auto);
+          }
+        }
       }
     }
-  }
+  
 // home
