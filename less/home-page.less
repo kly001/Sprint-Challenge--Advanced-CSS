@@ -45,8 +45,10 @@
       .area(28%, 100%);
 
       @media (max-width:500px) {
-        .sky-img img, .launch-img img {
-          display: none;
+        .sky-img{
+          visibility: none;
+        }
+        
         }
       }
 
@@ -101,7 +103,7 @@
       width: 46%;
       margin-left: 4%;
 
-      @media(max-width: 500px) {
+      @media @phone {
         .area(100%, auto);
         border-radius: 7%;
       }
@@ -112,4 +114,4 @@
       }
     }
   }
-}// home
+// home
