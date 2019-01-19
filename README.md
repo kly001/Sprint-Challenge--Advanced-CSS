@@ -39,22 +39,24 @@ When a website is fully responsive, the content shown is based upon the viewport
 
 2. Describe what it means to be mobile first vs desktop first.
 
-Mobile first references the designing of a webpage with phone, tablet or other mobile devices as the primary styling choice, and desktop design is the secondary priority.
+The term 'mobile first' refers to the trend in website development where designing a website for smartphones, tables and other mobile devices takes priority over designing for desktops. Media queries in a mobile first design have a 'min-width' parameter.
+
+'Desktop first' is the traditional approach in website development where designing a website for desktop computers takes priority. Media queries in a desktop first design have a 'max-width' parameter.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
-'font-size: 62.5%" will take a single font unit on the html element and define all rem units to be a percentage of that.
+'Font-size: 62.5%" will take a single font unit on the html element and define all rem units to be a percentage of that. It changes the value of 1 rem to 10 pixels.
 
 
 4. How would you describe preprocessing to someone new to CSS?
 
-Preprocessing involves transforming raw data into an understandable format using a program, 
+Preprocessing involves changing normal CSS syntax to a form that is easier for humans to read.
 
 
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-I plead the fifth!
+My favorite concept in preprocessing is the use of mixins.  My least favorite is nesting.
 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
